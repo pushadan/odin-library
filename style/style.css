@@ -23,7 +23,7 @@ li, ul{
   min-height: 95%;
   height: auto;
   display:flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   gap: 35px;
@@ -43,6 +43,7 @@ li, ul{
 #title{
   width: 80%;
   font-size: 3.5rem;
+  margin-top: 40px;
   font-weight: bolder;
   color: var(--color-3);
 }
@@ -68,7 +69,7 @@ li, ul{
   gap: 5px;
   padding-left: 25px;
   padding-right: 25px;
-  background-color: var(--color-4);
+  background-color: var(--color-1);
   border-radius: 10px;
 }
 .bookCard .title{
@@ -105,7 +106,7 @@ li, ul{
   background-color: var(--color-2);
 }
 #createBookButton:hover{
-  background-color: var(--color-1);
+  background-color: var(--color-3);
   color: var(--font-color-1);
 }
 #createBookButton:active{
